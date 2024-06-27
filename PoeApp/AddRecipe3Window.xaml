@@ -1,0 +1,12 @@
+﻿<Window x:Class="PoeApp.AddRecipe3Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Recipe - Step Details" Height="550" Width="1000">
+    <Grid Background="#FF1F80EC">
+        <TextBlock HorizontalAlignment="Center" Height="79" Margin="0,10,0,0" TextWrapping="Wrap" Text="Add Recipe" VerticalAlignment="Top" Width="196" FontSize="24" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Height="54" Margin="0,121,0,0" TextWrapping="Wrap" Text="Enter the recipe steps" VerticalAlignment="Top" Width="152" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBox x:Name="StepTextBox" HorizontalAlignment="Center" Height="104" TextWrapping="Wrap" VerticalAlignment="Center" Width="260"/>
+        <Button Content="Add" HorizontalAlignment="Center" Height="46" Margin="0,376,0,0" VerticalAlignment="Top" Width="108" FontSize="14" FontWeight="Bold" Click="AddButton_Click"/>
+        <Button Content="Done" HorizontalAlignment="Center" Height="46" Margin="0,442,0,0" VerticalAlignment="Top" Width="108" FontSize="14" FontWeight="Bold" Click="DoneButton_Click"/>
+    </Grid>
+</Window>

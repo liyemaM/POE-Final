@@ -1,0 +1,19 @@
+﻿<Window x:Class="PoeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="1000">
+    <Grid x:Name="MainGrid" Background="#FF1F80EC">
+        <Grid x:Name="StartMenu">
+            <TextBlock HorizontalAlignment="Center" Height="79" Margin="0,10,0,0" TextWrapping="Wrap" Text="Welcome to the Recipe Maker" VerticalAlignment="Top" Width="196" FontSize="24" FontWeight="Bold" TextAlignment="Center"/>
+            <Button Content="Add Recipe" HorizontalAlignment="Left" Height="45" Margin="348,194,0,0" VerticalAlignment="Top" Width="126" FontSize="14" FontWeight="Bold" Click="AddRecipeButton_Click"/>
+            <Button Content="Exit" HorizontalAlignment="Center" Height="45" Margin="0,345,0,0" VerticalAlignment="Top" Width="126" FontSize="14" FontWeight="Bold" Click="ExitButton_Click"/>
+            <Button Content="All Recipes" HorizontalAlignment="Left" Height="45" Margin="520,270,0,0" VerticalAlignment="Top" Width="126" FontSize="14" FontWeight="Bold" Click="AllRecipeButton_Click"/>
+            <Button Content="Scale Recipe" HorizontalAlignment="Left" Height="45" Margin="348,270,0,0" VerticalAlignment="Top" Width="126" FontSize="14" FontWeight="Bold" Click="ScaleRecipeButton_Click"/>
+            <Button Content="Display Recipe" HorizontalAlignment="Left" Height="45" Margin="520,194,0,0" VerticalAlignment="Top" Width="126" FontSize="14" FontWeight="Bold" Click="DisplayRecipeButton_Click"/>
+        </Grid>
+        <Frame x:Name="MainFrame" Visibility="Visible"/>
+    </Grid>
+</Window>
